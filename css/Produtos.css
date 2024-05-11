@@ -1,0 +1,193 @@
+.aviso{
+    color: gray;
+    font-size: 14px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.prodh1{
+    text-align: center;
+    margin: 20px;
+    font-size: 48px;
+}
+
+.pastilha{
+    float: left;
+    text-align: center;
+}
+
+.article1{
+    padding: 40px;
+}
+
+.vitrine1{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+    border-radius: 10px;
+}
+.preco1{
+    text-align: center;
+    margin-top: 20px;
+    margin: 40px;
+    background-color: rgb(239, 244, 240);
+    border-radius: 10px;
+    width: 150px;
+    height: 28px;
+    padding: 20px;
+    margin-left: 150px;
+    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+}
+
+.bandeja{
+    float: left;
+    text-align: center;
+}
+
+.article2{
+    padding: 40px;
+}
+
+.vitrine2{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+    border-radius: 10px;
+}
+.preco2{
+    text-align: center;
+    margin-top: 20px;
+    margin: 40px;
+    background-color: rgb(239, 244, 240);
+    border-radius: 10px;
+    width: 180px;
+    height: 28px;
+    padding: 20px;
+    margin-left: 150px;
+    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+}
+
+.amortecedor{
+    float: left;
+    text-align: center;
+}
+
+.article3{
+    padding: 40px;
+}
+
+.vitrine3{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+    border-radius: 10px;
+}
+.preco3{
+    text-align: center;
+    margin-top: 20px;
+    margin: 40px;
+    background-color: rgb(239, 244, 240);
+    border-radius: 10px;
+    width: 150px;
+    height: 28px;
+    padding: 20px;
+    margin-left: 150px;
+    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+}
+
+.alternador{
+    float: left;
+    text-align: center;
+}
+
+.article4{
+    padding: 40px;
+}
+
+.vitrine4{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+    border-radius: 10px;
+}
+.preco4{
+    text-align: center;
+    margin-top: 20px;
+    margin: 40px;
+    background-color: rgb(239, 244, 240);
+    border-radius: 10px;
+    width: 150px;
+    height: 28px;
+    padding: 20px;
+    margin-left: 150px;
+    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+}
+
+.reservatorio{
+    float: left;
+    text-align: center;
+}
+
+.article5{
+    padding: 40px;
+}
+
+.vitrine5{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+    border-radius: 10px;
+}
+.preco5{
+    text-align: center;
+    margin-top: 20px;
+    margin: 40px;
+    background-color: rgb(239, 244, 240);
+    border-radius: 10px;
+    width: 180px;
+    height: 28px;
+    padding: 20px;
+    margin-left: 150px;
+    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+}
+
+.filtro{
+    float: left;
+    text-align: center;
+}
+
+.article6{
+    padding: 40px;
+}
+
+.vitrine6{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+    border-radius: 10px;
+}
+.preco6{
+    text-align: center;
+    margin-top: 20px;
+    margin: 40px;
+    background-color: rgb(239, 244, 240);
+    border-radius: 10px;
+    width: 150px;
+    height: 28px;
+    padding: 20px;
+    margin-left: 150px;
+    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+}

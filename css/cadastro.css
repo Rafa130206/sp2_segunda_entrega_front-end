@@ -1,0 +1,29 @@
+.cadastroh1{
+    text-align: center;
+    margin: 20px;
+    font-size: 56px;
+}
+
+.bodycad{
+    text-align: center;
+}
+
+legend{
+    font-size: 32px;
+}
+
+form{
+    margin: 60px;
+    font-size: 24px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    width: 440px;
+}
+
+label { display: inline-block; 
+    width: 100px; 
+    text-align: left; }
+input{
+    font-size: 24px;
+}

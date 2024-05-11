@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================ HEADER ================ */
+
+.header{
+    background-color: rgb(1, 161, 253);
+    height: 200px;
+}
+
+.icon{
+    max-height: 40px;
+    max-width: 35px;
+    float: right;
+    margin: 40px;
+    margin-top: 80px;
+    margin-right: 60px;
+}
+
+.porto{
+    max-width: 90px;
+    max-height: 90px;
+    margin: 40px;
+    box-shadow: 5px 5px rgb(128, 132, 129);
+}
+
+nav{
+    text-align: center;
+    font-size: large;
+}
+
+a.home{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 100px;
+}
+a.prod{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+a.serv{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+a.pagint{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+/* ================ HOME ================ */
+
+.sec1home{
+    background-color: rgb(239, 244, 240);
+    margin: 40px;
+    border-radius: 20px;
+    max-width: 40%;
+    padding-top: 20px;
+    height: 600px;
+    float: left;
+}
+
+.mecbot{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 58px;
+}
+
+.phome{
+    line-height: 24px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+aside{
+    max-width: 40%;
+    float: left;
+    padding: 100px;
+}
+
+.carros{
+    box-shadow: 10px 10px 128, 132, 129;
+    border-radius: 10px;
+}

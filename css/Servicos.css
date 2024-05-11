@@ -1,0 +1,57 @@
+.bodyserv{
+    text-align: center;
+}
+
+.servh1{
+    text-align: center;
+    margin: 20px;
+    font-size: 56px;
+}
+
+.chatbotp{
+    background-color: rgb(239, 244, 240);
+    margin: 40px;
+    border-radius: 20px;
+    width: 400px;
+    height: 360px;
+    float: left;
+    line-height: 38px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: justify;
+    font-size: 28px;
+    margin-left: 160px;
+}
+
+.chatbotimg{
+    height: 380px;
+    margin: 40px;
+    box-shadow: 20px 20px rgb(128, 132, 129,);
+    border-radius: 20px;
+}
+
+.bdimg{
+    height: 380px;
+    margin: 40px;
+    margin-left: 100px;
+    box-shadow: 20px 20px rgb(128, 132, 129,);
+    border-radius: 20px;
+}
+
+.bdp{
+    background-color: rgb(239, 244, 240);
+    margin: 40px;
+    border-radius: 20px;
+    width: 400px;
+    padding-top: 20px;
+    height: 360px;
+    float: left;
+    line-height: 38px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: justify;
+    font-size: 28px;
+    margin-left: 160px;
+}
