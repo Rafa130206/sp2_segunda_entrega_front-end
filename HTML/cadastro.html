@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bodycad">
+    <header class="header">
+        <a href="https://www.portoseguro.com.br" target="_blank"><img src="img/Porto-Seguro-logo.jpg" alt="Porto Seguro" class="porto"></a>
+        <a href="cadastro.html"><img src="img/icon.png" alt="Cadastro" class="icon"></a>
+        <nav>
+            <a href="index.html" class="home">Home</a>
+            <a href="Produtos.html" class="prod">Produtos</a>
+            <a href="Servicos.html" class="serv">Serviços</a>
+            <a href="pag_int.html" class="pagint">Página de Integrantes</a>
+        </nav>
+    </header>
+    <h1 class="cadastroh1">CADASTRE-SE</h1>
+    <form action="Cadastrar" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend><br>
+            <label for="idnome">Nome: </label>
+            <input type="text" name="nome" id="idnome"><br>
+            <br>
+            <label for="idemail">Email</label>
+            <input type="text" name="email" id="idemail"><br>
+            <br>
+            <label for="idcpf">CPF:</label>
+            <input type="text" name="cpf" id="idcpf"><br>
+            <br>
+            <label for="idcep">CEP: </label>
+            <input type="text" name="cep" id="idcep"><br>
+            <br>
+            <label for="idtel">Tel: </label>
+            <input type="text" name="tel" id="idtel"><br>
+            <br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
