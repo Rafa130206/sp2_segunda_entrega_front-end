@@ -66,20 +66,25 @@ a.pagint{
 
 /* ================ HOME ================ */
 
-.sec1home{
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec1{
     background-color: rgb(239, 244, 240);
-    margin: 40px;
-    border-radius: 20px;
-    max-width: 40%;
-    padding-top: 20px;
-    height: 600px;
-    float: left;
+    display: flex;
+    border-radius: 15px;
+    width: 30vw;
+    padding-bottom: 20px;
+    margin: 2vw;
 }
 
 .mecbot{
     text-align: center;
     padding-top: 10px;
-    font-size: 58px;
+    font-size: 3vw;
 }
 
 .phome{
@@ -88,16 +93,25 @@ a.pagint{
     padding-right: 40px;
     padding-left: 40px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 1.2vw;
 }
 
-aside{
-    max-width: 40%;
-    float: left;
-    padding: 100px;
+.sec2{
+    width: 30vw;
+    align-self: center;
+    margin: 2vw;
 }
 
 .carros{
-    box-shadow: 10px 10px 128, 132, 129;
-    border-radius: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(128, 132, 129);
+    width: 40vw;
+}
+
+footer{
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(1, 161, 253);
+    color: white;
+    padding: 10px;
 }
