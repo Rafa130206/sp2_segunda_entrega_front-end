@@ -76,186 +76,117 @@ a.pagint{
 
 .prodh1{
     text-align: center;
-    margin: 20px;
-    font-size: 48px;
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-evenly;
+    margin: 40px;
 }
 
 .pastilha{
-    float: left;
-    text-align: center;
-}
-
-.article1{
-    padding: 40px;
+    width: 30vw;
+    
 }
 
 .vitrine1{
-    height: 400px;
-    width: 400px;
-    margin: 50px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
-    border-radius: 10px;
+    width: 25vw;
 }
+
 .preco1{
+    margin: 20px;
     text-align: center;
-    margin-top: 20px;
-    margin: 40px;
     background-color: rgb(239, 244, 240);
+    font-weight: bold;
     border-radius: 10px;
-    width: 150px;
-    height: 28px;
-    padding: 20px;
-    margin-left: 150px;
-    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
-}
-
-.bandeja{
-    float: left;
-    text-align: center;
-}
-
-.article2{
-    padding: 40px;
+    padding: 5px;
 }
 
 .vitrine2{
-    height: 400px;
-    width: 400px;
-    margin: 50px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
-    border-radius: 10px;
+    width: 25vw;
 }
+
 .preco2{
+    margin: 20px;
     text-align: center;
-    margin-top: 20px;
-    margin: 40px;
     background-color: rgb(239, 244, 240);
+    font-weight: bold;
     border-radius: 10px;
-    width: 180px;
-    height: 28px;
-    padding: 20px;
-    margin-left: 150px;
-    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+    padding: 5px;
 }
 
-.amortecedor{
-    float: left;
-    text-align: center;
-}
-
-.article3{
-    padding: 40px;
-}
 
 .vitrine3{
-    height: 400px;
-    width: 400px;
-    margin: 50px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
-    border-radius: 10px;
+    width: 25vw;
 }
+
 .preco3{
+    margin: 20px;
     text-align: center;
-    margin-top: 20px;
-    margin: 40px;
     background-color: rgb(239, 244, 240);
+    font-weight: bold;
     border-radius: 10px;
-    width: 150px;
-    height: 28px;
-    padding: 20px;
-    margin-left: 150px;
-    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+    padding: 5px;
 }
 
-.alternador{
-    float: left;
-    text-align: center;
-}
 
-.article4{
-    padding: 40px;
+.container2{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-evenly;
+    margin: 40px;
 }
 
 .vitrine4{
-    height: 400px;
-    width: 400px;
-    margin: 50px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
-    border-radius: 10px;
+    width: 25vw;
 }
+
 .preco4{
+    margin: 20px;
     text-align: center;
-    margin-top: 20px;
-    margin: 40px;
     background-color: rgb(239, 244, 240);
+    font-weight: bold;
     border-radius: 10px;
-    width: 150px;
-    height: 28px;
-    padding: 20px;
-    margin-left: 150px;
-    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
-}
-
-.reservatorio{
-    float: left;
-    text-align: center;
-}
-
-.article5{
-    padding: 40px;
+    padding: 5px;
 }
 
 .vitrine5{
-    height: 400px;
-    width: 400px;
-    margin: 50px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
-    border-radius: 10px;
+    width: 27vw;
 }
+
 .preco5{
+    margin: 20px;
     text-align: center;
-    margin-top: 20px;
-    margin: 40px;
     background-color: rgb(239, 244, 240);
+    font-weight: bold;
     border-radius: 10px;
-    width: 180px;
-    height: 28px;
-    padding: 20px;
-    margin-left: 150px;
-    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
-}
-
-.filtro{
-    float: left;
-    text-align: center;
-}
-
-.article6{
-    padding: 40px;
+    padding: 5px;
 }
 
 .vitrine6{
-    height: 400px;
-    width: 400px;
-    margin: 50px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
-    border-radius: 10px;
+    width: 23vw;
+    margin-top: 60px;
 }
+
 .preco6{
+    margin: 20px;
     text-align: center;
-    margin-top: 20px;
-    margin: 40px;
     background-color: rgb(239, 244, 240);
+    font-weight: bold;
     border-radius: 10px;
-    width: 150px;
-    height: 28px;
-    padding: 20px;
-    margin-left: 150px;
-    box-shadow: 0px 0px 5px 5px rgb(128, 132, 129);
+    padding: 5px;
+}
+
+/* ================ FOOTER ================ */
+
+footer{
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(1, 161, 253);
+    color: white;
+    padding: 10px;
 }
