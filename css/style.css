@@ -4,59 +4,64 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ================ HEADER ================ */
+/* ============================ Header ============================ */
 
 .header{
     background-color: rgb(1, 161, 253);
     height: 200px;
 }
 
-.icon{
-    max-height: 40px;
-    max-width: 35px;
-    float: right;
-    margin: 40px;
-    margin-top: 80px;
-    margin-right: 60px;
-}
-
 .porto{
-    max-width: 90px;
-    max-height: 90px;
-    margin: 40px;
+    max-width: 5vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
     box-shadow: 5px 5px rgb(128, 132, 129);
 }
 
-nav{
-    text-align: center;
-    font-size: large;
+.icon{
+    max-width: 2vw;
+    float: right;
+    margin-right: 4.5vw;
+    margin-top: 3vw;
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px 40px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 40px;
 }
 
 a.home{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    margin-right: 100px;
+    font-size: 22px;
 }
+
 a.prod{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    margin-left: 100px;
-    margin-right: 100px;
+    font-size: 22px;
 }
+
 a.serv{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    margin-left: 100px;
-    margin-right: 100px;
+    font-size: 22px;
 }
+
 a.pagint{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    margin-left: 100px;
+    font-size: 22px;
 }
 
 /* ================ HOME ================ */
