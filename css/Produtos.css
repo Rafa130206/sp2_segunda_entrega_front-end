@@ -33,7 +33,7 @@ ul{
     gap: 10px 40px;
     justify-content: space-evenly;
     align-items: flex-end;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 a.home{
@@ -189,4 +189,783 @@ footer{
     background-color: rgb(1, 161, 253);
     color: white;
     padding: 10px;
+}
+
+/* ================ DESKTOPS MÉDIOS ================ */
+
+@media screen and (max-width: 1199px){
+
+    /* ============================ Header ============================ */
+
+    .header{
+        background-color: rgb(1, 161, 253);
+        height: 150px;
+    }
+
+    .porto{
+        max-width: 5vw;
+        margin-left: 2vw;
+        margin-top: 1vw;
+        box-shadow: 5px 5px rgb(128, 132, 129);
+    }
+
+    .icon{
+        max-width: 2vw;
+        float: right;
+        margin-right: 4.5vw;
+        margin-top: 3vw;
+
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 10px 40px;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        margin-top: 30px;
+    }
+
+    a.home{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    a.prod{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    a.serv{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    a.pagint{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    /* ================ PRODUTOS ================ */
+
+    .aviso{
+        color: gray;
+        font-size: 12px;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .prodh1{
+        text-align: center;
+        font-size: 46px;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: space-evenly;
+        margin: 40px;
+    }
+    
+    .pastilha{
+        width: 30vw;
+        
+    }
+    
+    .vitrine1{
+        width: 25vw;
+    }
+    
+    .preco1{
+        margin: 20px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .vitrine2{
+        width: 25vw;
+    }
+    
+    .preco2{
+        margin: 20px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    
+    .vitrine3{
+        width: 25vw;
+    }
+    
+    .preco3{
+        margin: 20px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    
+    .container2{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: space-evenly;
+        margin: 40px;
+    }
+    
+    .vitrine4{
+        width: 25vw;
+    }
+    
+    .preco4{
+        margin: 20px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .vitrine5{
+        width: 27vw;
+    }
+    
+    .preco5{
+        margin: 20px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .vitrine6{
+        width: 20vw;
+        margin-top: 60px;
+    }
+    
+    .preco6{
+        margin: 20px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    /* ================ FOOTER ================ */
+
+    footer{
+        font-size: 14px;
+        text-align: center;
+        background-color: rgb(1, 161, 253);
+        color: white;
+        padding: 10px;
+    }
+
+}
+
+/* ================ TABLETS E LAPTOPS ================ */
+
+@media screen and (max-width: 991px){
+
+    /* ============================ Header ============================ */
+
+    .header{
+        background-color: rgb(1, 161, 253);
+        height: 120px;
+    }
+
+    .porto{
+        max-width: 5vw;
+        margin-left: 2vw;
+        margin-top: 1vw;
+        box-shadow: 5px 5px rgb(128, 132, 129);
+    }
+
+    .icon{
+        max-width: 2vw;
+        float: right;
+        margin-right: 4.5vw;
+        margin-top: 3vw;
+
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 10px 40px;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        margin-top: 40px;
+    }
+
+    a.home{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    a.prod{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    a.serv{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    a.pagint{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /* ================ PRODUTOS ================ */
+
+    .aviso{
+        color: gray;
+        font-size: 10px;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .prodh1{
+        text-align: center;
+        font-size: 44px;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: space-evenly;
+        margin: 40px;
+    }
+    
+    .pastilha{
+        width: 30vw;
+        
+    }
+    
+    .vitrine1{
+        width: 25vw;
+    }
+    
+    .preco1{
+        margin: 20px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .vitrine2{
+        width: 25vw;
+    }
+    
+    .preco2{
+        margin: 20px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    
+    .vitrine3{
+        width: 25vw;
+    }
+    
+    .preco3{
+        margin: 20px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    
+    .container2{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: space-evenly;
+        margin: 40px;
+    }
+    
+    .vitrine4{
+        width: 25vw;
+    }
+    
+    .preco4{
+        margin: 20px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .vitrine5{
+        width: 27vw;
+    }
+    
+    .preco5{
+        margin: 20px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .vitrine6{
+        width: 18vw;
+        margin-top: 60px
+    }
+    
+    .preco6{
+        margin: 20px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+
+    /* ================ FOOTER ================ */
+
+    footer{
+        font-size: 12px;
+        text-align: center;
+        background-color: rgb(1, 161, 253);
+        color: white;
+        padding: 10px;
+    }
+
+}
+
+/* ================ TELEFONES MÉDIOS E TABLETS PEQUENOS ================ */
+
+@media screen and (max-width: 767px){
+
+    /* ============================ Header ============================ */
+
+    .header{
+        background-color: rgb(1, 161, 253);
+        width: 100vw;
+    }
+
+    .porto{
+        max-width: 5vw;
+        margin-left: 2vw;
+        margin-top: 1vw;
+        box-shadow: 3px 3px rgb(128, 132, 129);
+    }
+
+    .icon{
+        max-width: 2vw;
+        float: right;
+        margin-right: 4.5vw;
+        margin-top: 3vw;
+
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 5px 20px;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+
+    a.home{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    a.prod{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    a.serv{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    a.pagint{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    /* ================ PRODUTOS ================ */
+    .aviso{
+        color: gray;
+        font-size: 8px;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .prodh1{
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: space-evenly;
+        margin: 20px;
+    }
+    
+    .pastilha{
+        width: 25vw;
+        
+    }
+    
+    .vitrine1{
+        width: 20vw;
+    }
+    
+    .preco1{
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    .vitrine2{
+        width: 20vw;
+    }
+    
+    .preco2{
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    
+    .vitrine3{
+        width: 20vw;
+    }
+    
+    .preco3{
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    
+    .container2{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: space-evenly;
+    }
+    
+    .vitrine4{
+        width: 20vw;
+    }
+    
+    .preco4{
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    .vitrine5{
+        width: 22vw;
+    }
+    
+    .preco5{
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    .vitrine6{
+        width: 16vw;
+        margin-top: 30px;
+    }
+    
+    .preco6{
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    /* ================ FOOTER ================ */
+
+    footer{
+        font-size: 12px;
+        text-align: center;
+        background-color: rgb(1, 161, 253);
+        color: white;
+        padding: 10px;
+    }
+}
+
+/* ================ TELEFONES PEQUENOS ================ */
+
+@media screen and (max-width: 576px){
+
+    /* ============================ Header ============================ */
+
+    .header{
+        background-color: rgb(1, 161, 253);
+        height: 80px;
+    }
+
+    .porto{
+        max-width: 5vw;
+        margin-left: 2vw;
+        margin-top: 1vw;
+        box-shadow: 2px 2px rgb(128, 132, 129);
+    }
+
+    .icon{
+        max-width: 2vw;
+        float: right;
+        margin-right: 4.5vw;
+        margin-top: 3vw;
+
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 5px 20px;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        margin-top: 20px;
+    }
+
+    a.home{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+    a.prod{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+    a.serv{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+    a.pagint{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+    /* ================ PRODUTOS ================ */
+
+    .aviso{
+        color: gray;
+        font-size: 8px;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .prodh1{
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: space-evenly;
+        margin: 20px;
+    }
+
+    .pastilha{
+        width: 25vw;
+        
+    }
+
+    .vitrine1{
+        width: 20vw;
+    }
+
+    .preco1{
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 6px;
+    }
+
+    .vitrine2{
+        width: 20vw;
+    }
+
+    .preco2{
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 6px;
+    }
+
+
+    .vitrine3{
+        width: 20vw;
+    }
+
+    .preco3{
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 6px;
+    }
+
+
+    .container2{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: space-evenly;
+    }
+
+    .vitrine4{
+        width: 20vw;
+    }
+
+    .preco4{
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 6px;
+    }
+
+    .vitrine5{
+        width: 22vw;
+    }
+
+    .preco5{
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 6px;
+    }
+
+    .vitrine6{
+        width: 16vw;
+        margin-top: 15px;
+    }
+
+    .preco6{
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(239, 244, 240);
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 2px;
+        font-size: 6px;
+    }
+
+    /* ================ FOOTER ================ */
+
+    footer{
+        font-size: 8px;
+        text-align: center;
+        background-color: rgb(1, 161, 253);
+        color: white;
+        padding: 10px;
+    }    
 }
