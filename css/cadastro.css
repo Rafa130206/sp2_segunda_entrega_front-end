@@ -68,14 +68,14 @@ a.pagint{
 
 .cadastroh1{
     text-align: center;
-    margin: 20px;
+    margin-top: 2vw;
     font-size: 56px;
 }
 
-.container{
-    align-items: center;
-    margin: 5vw;
-    border: 5px solid black;
+.form{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
 }
 
 legend{
