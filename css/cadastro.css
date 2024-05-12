@@ -72,6 +72,12 @@ a.pagint{
     font-size: 56px;
 }
 
+.container{
+    align-items: center;
+    margin: 5vw;
+    border: 5px solid black;
+}
+
 legend{
     font-size: 32px;
 }
@@ -93,4 +99,14 @@ label{
 
 input{
     font-size: 24px;
+}
+
+/* ================ FOOTER ================ */
+
+footer{
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(1, 161, 253);
+    color: white;
+    padding: 10px;
 }
