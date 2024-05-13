@@ -189,6 +189,9 @@ footer{
     background-color: rgb(1, 161, 253);
     color: white;
     padding: 10px;
+    width: 98.9%;
+    position: absolute;
+    top: 100%
 }
 
 /* ================ DESKTOPS MÉDIOS ================ */
@@ -380,6 +383,9 @@ footer{
         background-color: rgb(1, 161, 253);
         color: white;
         padding: 10px;
+        width: 98.9%;
+        position: absolute;
+        top: 100%
     }
 
 }
@@ -574,6 +580,9 @@ footer{
         background-color: rgb(1, 161, 253);
         color: white;
         padding: 10px;
+        width: 98.9%;
+        position: absolute;
+        top: 100%
     }
 
 }
@@ -770,6 +779,9 @@ footer{
         background-color: rgb(1, 161, 253);
         color: white;
         padding: 10px;
+        width: 98.9%;
+        position: absolute;
+        top: 100%
     }
 }
 
@@ -967,5 +979,8 @@ footer{
         background-color: rgb(1, 161, 253);
         color: white;
         padding: 10px;
+        width: 98.9%;
+        position: absolute;
+        top: 100%
     }    
 }
