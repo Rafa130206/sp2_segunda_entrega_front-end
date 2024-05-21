@@ -130,9 +130,6 @@ footer{
     background-color: rgb(1, 161, 253);
     color: white;
     padding: 10px;
-    width: 98.9%;
-    position: absolute;
-    top: 100%
 }
 
 /* ================ DESKTOPS MÉDIOS ================ */
@@ -619,7 +616,7 @@ footer{
 
     .container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 15px;
         justify-content: space-evenly;
         margin: 40px;
@@ -628,55 +625,66 @@ footer{
     }
 
     .chatbot{
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .chatbotimg{
-        width: 32.8vw;
+        width: 80vw;
         margin: 2vw;
         border-radius: 15px;
         box-shadow: 5px 5px rgb(128, 132, 129);
     }
 
     .chatbotp{
-        width: 30vw;
+        width: 80vw;
         margin: 2vw;
         text-align: justify;
         text-align: center;
         background-color: rgb(239, 244, 240);
         border-radius: 10px;
         padding: 18px;
-        font-size: 10px;
+        font-size: 14px;
+    }
+
+    .bd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .bdimg{
-        width: 32.8vw;
+        width: 80vw;
         margin: 2vw;
         border-radius: 15px;
         box-shadow: 5px 5px rgb(128, 132, 129);
     }
 
     .bdp{
-        width: 30vw;
+        width: 80vw;
         margin: 2vw;
         text-align: justify;
         text-align: center;
         background-color: rgb(239, 244, 240);
         border-radius: 10px;
         padding: 18px;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     /* ================ FOOTER ================ */
 
     footer{
-        font-size: 8px;
+        font-size: 1vh;
         text-align: center;
         background-color: rgb(1, 161, 253);
         color: white;
         padding: 10px;
-        width: 98.9%;
         position: absolute;
-        top: 100%
+        top: 100%;
+        width: 95vw;
+        margin-top: 120px;
     }    
 }

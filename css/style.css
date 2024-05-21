@@ -112,14 +112,12 @@ a.pagint{
 /* ================ FOOTER ================ */
 
 footer{
-    font-size: 18px;
-    text-align: center;
-    background-color: rgb(1, 161, 253);
-    color: white;
-    padding: 10px;
-    width: 98.9%;
-    position: absolute;
-    top: 100%
+    font-size: 14px;
+        text-align: center;
+        background-color: rgb(1, 161, 253);
+        color: white;
+        padding: 10px;
+        margin-top: 5vw;
 }
 
 /* ================ DESKTOPS MÉDIOS ================ */
@@ -190,8 +188,8 @@ footer{
 
     .container{
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        flex-direction: column;
+        justify-content: center;
         padding-bottom: 5vw;
     }
 
@@ -199,7 +197,7 @@ footer{
         background-color: rgb(239, 244, 240);
         display: flex;
         border-radius: 15px;
-        width: 30vw;
+        width: 80vw;
         padding-bottom: 20px;
         margin: 2vw;
     }
@@ -220,15 +218,16 @@ footer{
     }
 
     .sec2{
-        width: 30vw;
-        align-self: center;
+        justify-items: center;
+        align-items: center;
+        width: 80vw;
         margin: 2vw;
     }
 
     .carros{
         border-radius: 20px;
         box-shadow: 10px 10px rgb(128, 132, 129);
-        width: 40vw;
+        width: 80vw;
     }
 
     /* ================ FOOTER ================ */
@@ -239,9 +238,6 @@ footer{
         background-color: rgb(1, 161, 253);
         color: white;
         padding: 10px;
-        width: 98.9%;
-        position: absolute;
-        top: 100%
     }
 
 }
@@ -314,8 +310,8 @@ footer{
 
     .container{
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        flex-direction: column;
+        justify-content: center;
         padding-bottom: 5vw;
     }
 
@@ -323,7 +319,7 @@ footer{
         background-color: rgb(239, 244, 240);
         display: flex;
         border-radius: 15px;
-        width: 30vw;
+        width: 80vw;
         padding-bottom: 20px;
         margin: 2vw;
     }
@@ -344,14 +340,16 @@ footer{
     }
 
     .sec2{
-        width: 30vw;
+        justify-items: center;
+        align-items: center;
+        width: 80vw;
         margin: 2vw;
     }
 
     .carros{
         border-radius: 20px;
         box-shadow: 10px 10px rgb(128, 132, 129);
-        width: 40vw;
+        width: 80vw;
     }
 
     /* ================ FOOTER ================ */
@@ -362,9 +360,7 @@ footer{
         background-color: rgb(1, 161, 253);
         color: white;
         padding: 10px;
-        width: 98.9%;
-        position: absolute;
-        top: 100%
+        margin-top: 5vw;
     }
 
 }
@@ -487,9 +483,9 @@ footer{
         background-color: rgb(1, 161, 253);
         color: white;
         padding: 10px;
-        width: 98.9%;
         position: absolute;
-        top: 100%
+        top: 100%;
+        width: 98%;
     }
 }
 
@@ -526,7 +522,7 @@ footer{
         gap: 5px 20px;
         justify-content: space-evenly;
         align-items: flex-end;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     a.home{
@@ -606,13 +602,13 @@ footer{
     /* ================ FOOTER ================ */
 
     footer{
-        font-size: 8px;
+        font-size: 12px;
         text-align: center;
         background-color: rgb(1, 161, 253);
         color: white;
         padding: 10px;
-        width: 98.9%;
         position: absolute;
-        top: 100%
+        top: 100%;
+        width: 94.9%;
     }    
 }

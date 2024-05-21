@@ -184,14 +184,11 @@ a.pagint{
 /* ================ FOOTER ================ */
 
 footer{
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
     background-color: rgb(1, 161, 253);
     color: white;
     padding: 10px;
-    width: 98.9%;
-    position: absolute;
-    top: 100%
 }
 
 /* ================ DESKTOPS MÉDIOS ================ */
@@ -383,9 +380,6 @@ footer{
         background-color: rgb(1, 161, 253);
         color: white;
         padding: 10px;
-        width: 98.9%;
-        position: absolute;
-        top: 100%
     }
 
 }
@@ -580,9 +574,6 @@ footer{
         background-color: rgb(1, 161, 253);
         color: white;
         padding: 10px;
-        width: 98.9%;
-        position: absolute;
-        top: 100%
     }
 
 }
@@ -779,7 +770,7 @@ footer{
         background-color: rgb(1, 161, 253);
         color: white;
         padding: 10px;
-        width: 98.9%;
+        width: 97%;
         position: absolute;
         top: 100%
     }
@@ -864,21 +855,22 @@ footer{
         font-size: 32px;
     }
 
+    .contall{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     .container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 15px;
         justify-content: space-evenly;
         margin: 20px;
-    }
-
-    .pastilha{
-        width: 25vw;
-        
+        float: left;
     }
 
     .vitrine1{
-        width: 20vw;
+        width: 30vw;
     }
 
     .preco1{
@@ -887,12 +879,13 @@ footer{
         background-color: rgb(239, 244, 240);
         font-weight: bold;
         border-radius: 5px;
-        padding: 5px;
-        font-size: 6px;
+        padding: 10px;
+        width: 30vw;
+        font-size: 14px;
     }
 
     .vitrine2{
-        width: 20vw;
+        width: 30vw;
     }
 
     .preco2{
@@ -901,13 +894,14 @@ footer{
         background-color: rgb(239, 244, 240);
         font-weight: bold;
         border-radius: 5px;
-        padding: 5px;
-        font-size: 6px;
+        padding: 10px;
+        width: 30vw;
+        font-size: 14px;
     }
 
 
     .vitrine3{
-        width: 20vw;
+        width: 30vw;
     }
 
     .preco3{
@@ -916,20 +910,23 @@ footer{
         background-color: rgb(239, 244, 240);
         font-weight: bold;
         border-radius: 5px;
-        padding: 5px;
-        font-size: 6px;
+        padding: 10px;
+        width: 30vw;
+        font-size: 14px;
     }
 
 
     .container2{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 15px;
         justify-content: space-evenly;
+        margin: 20px;
+        float: left;
     }
 
     .vitrine4{
-        width: 20vw;
+        width: 30vw;
     }
 
     .preco4{
@@ -938,12 +935,13 @@ footer{
         background-color: rgb(239, 244, 240);
         font-weight: bold;
         border-radius: 5px;
-        padding: 5px;
-        font-size: 6px;
+        padding: 10px;
+        width: 30vw;
+        font-size: 14px;
     }
 
     .vitrine5{
-        width: 22vw;
+        width: 32vw;
     }
 
     .preco5{
@@ -952,13 +950,21 @@ footer{
         background-color: rgb(239, 244, 240);
         font-weight: bold;
         border-radius: 5px;
-        padding: 5px;
-        font-size: 6px;
+        padding: 10px;
+        width: 30vw;
+        font-size: 14px;
+    }
+
+    .article6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .vitrine6{
-        width: 16vw;
-        margin-top: 15px;
+        width: 26vw;
+        margin-top: 35px;
     }
 
     .preco6{
@@ -967,20 +973,22 @@ footer{
         background-color: rgb(239, 244, 240);
         font-weight: bold;
         border-radius: 5px;
-        padding: 2px;
-        font-size: 6px;
+        padding: 10px;
+        width: 30vw;
+        font-size: 14px;
     }
 
     /* ================ FOOTER ================ */
 
     footer{
-        font-size: 8px;
+        font-size: 1vh;
         text-align: center;
         background-color: rgb(1, 161, 253);
         color: white;
         padding: 10px;
-        width: 98.9%;
         position: absolute;
-        top: 100%
+        top: 100%;
+        width: 95vw;
+        margin-top: 40px;
     }    
 }
